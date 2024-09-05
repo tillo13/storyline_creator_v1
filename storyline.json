@@ -1,0 +1,87 @@
+{
+  "model_settings": {
+    "default_model_settings": {
+    },
+    "sample_models": [
+      "stablediffusionapi/disney-pixar-cartoon",
+      "stablediffusionapi/juggernaut-xl-v9",
+    ]
+  },
+  "global_setting": {
+    "image_enhancements": "vivid scene, post-apocalyptic New York"
+  },
+  "characters": {
+    "Robert Neville": {
+      "gender": "male",
+      "age": "middle-aged",
+      "skin_tone": " dark",
+      "characteristics": "man muscular, short dark hair, beard, military demeanor"
+    },
+    "Samantha (Sam)": {
+      "gender": "female",
+      "age": "adult",
+      "skin_tone": "golden",
+      "characteristics": "German Shepherd, loyal companion"
+    },
+    "Darkseekers": {
+      "gender": ".",
+      "age": ".",
+      "skin_tone": "pale",
+      "characteristics": "Infected humans, aggressive, nocturnal"
+    }
+  },
+  "scenes": [
+    {
+      "description": "stands in the midst of deserted New York streets, the silence echoing.",
+      "focus": ["Robert Neville"],
+      "extends_global_setting": true
+    },
+    {
+      "description": "a man surveys his surroundings cautiously.",
+      "focus": ["Robert Neville"],
+      "extends_global_setting": true
+    },
+    {
+      "description": "Robert Neville and Samantha (Sam) search an abandoned building.",
+      "focus": ["Robert Neville", "Samantha (Sam)"],
+      "extends_global_setting": true
+    },
+    {
+      "description": "Robert Neville sets traps while Samantha (Sam) watches attentively.",
+      "focus": ["Robert Neville", "Samantha (Sam)"],
+      "extends_global_setting": true
+    },
+    {
+      "description": "Robert Neville and Samantha engage in a playful moment, finding brief respite.",
+      "focus": ["Robert Neville", "Samantha (Sam)"],
+      "extends_global_setting": true
+    },
+    {
+      "description": "Robert Neville sits in a dimly lit lab, eyes focused, working on a cure.",
+      "focus": ["Robert Neville"],
+      "location": "Lab",
+      "extends_global_setting": false
+    },
+    {
+      "description": "Robert Neville, now determined, continues his research, a vaccine in sight.",
+      "focus": ["Robert Neville"],
+      "location": "Lab",
+      "extends_global_setting": false
+    },
+    {
+      "description": "A group of Darkseekers ambush, their eyes glowing in the dark.",
+      "focus": ["Darkseekers"],
+      "extends_global_setting": true
+    },
+    {
+      "description": "Robert Neville finds a sign of other survivors, a moment of hope amidst despair.",
+      "focus": ["Robert Neville"],
+      "extends_global_setting": true
+    },
+    {
+      "description": "Robert Neville faces a horde of Darkseekers, a resolve of steel in his gaze.",
+      "focus": ["Robert Neville"],
+      "extends_global_setting": true
+    }
+  ]
+}
